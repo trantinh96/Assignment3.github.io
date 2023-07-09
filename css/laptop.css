@@ -1,0 +1,210 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "inter", sans-serif;
+  color: #212529;
+}
+body {
+  overflow: auto;
+}
+p {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/*phần banner*/
+.banner > h1 {
+  font-size: 86px;
+}
+.banner > span {
+  font-size: 40px;
+}
+#nav-bar {
+  text-align: center;
+}
+#banner {
+  position: relative;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.banner {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/* Xây dựng navbar */
+.nav-bar .navl {
+  display: inline-block;
+  color: black;
+  padding: 15px 25px;
+
+  text-transform: uppercase;
+  font-weight: 600;
+
+  text-decoration: none;
+  border-right: 1px solid #adb5bd;
+}
+.nav-bar .navl:hover {
+  background-color: orange;
+  color: #f7f7f7;
+}
+.nav-bar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.nav-bar .navl i {
+  color: #339af0;
+}
+.nav1 {
+  margin-right: 100px;
+}
+.nav3 {
+  margin-left: 100px;
+}
+.nav-2 img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+  border: 10px solid #339af0;
+}
+
+.navl.nav3,
+.navl.nav4 {
+  border-left: 1px solid #adb5bd;
+}
+/* xây dựng info */
+
+.info {
+  background-color: #dee2e6;
+  padding: 40px;
+}
+
+.career {
+  background-color: #e9ecef;
+  padding: 40px;
+}
+
+.bg-grey {
+  background-color: #f1f3f5;
+}
+.icon-twitter,
+.icon-facebook,
+.icon-gplus,
+.icon-linkedin {
+  color: #339af0;
+}
+/* job-info
+ */
+
+.hhh {
+  min-height: 600px;
+}
+.jjj {
+  min-height: 400px;
+}
+
+.icon-circle {
+  color: #339af0;
+  font-size: 13px;
+  position: absolute;
+  left: -10px;
+}
+/* sơ thich */
+
+.ic-basket,
+.ic-megaphone,
+.ic-strategy,
+.ic-hotairballoon {
+  color: #339af0;
+  font-size: 25px;
+}
+.favo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #339af0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Ngôn ngữ và kỹ năng */
+.voice1 {
+  background: #ced4da;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+  border-radius: 4px;
+}
+.voice {
+  background-color: #339af0;
+  display: inline-block;
+  height: 3px;
+  margin-right: 15px;
+  width: 50px;
+  border-radius: 4px;
+}
+
+/* chứng chỉ và giải thưởng */
+.ggg {
+  border-left: 2px solid #ffe066;
+}
+.zzz {
+  border-top: 2px solid #ffe066;
+}
+
+/* project */
+table {
+  height: 300px;
+}
+/* footer */
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  color: #228be6;
+  font-size: 40px;
+}
+#footer {
+  background-color: #e9ecef;
+}
+/* 9 project charter */
+.navv::before {
+  display: block;
+  content: "";
+  height: 80px;
+}
+/*  chiều cao của các cột  */
+.lorem {
+  min-height: 515px;
+}
+.lorem1 {
+  min-height: 370px;
+}
+.lorem2 {
+  min-height: 909.375px;
+}
+.number {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #9775fa;
+  color: #fff;
+
+  font-size: 30px;
+  border: 1px solid #495057;
+}
+
+.number2 {
+  border-bottom: 1px dashed #228be6;
+}

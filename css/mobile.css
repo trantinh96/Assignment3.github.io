@@ -1,0 +1,51 @@
+@media (max-width: 500px) {
+  /* navbar */
+  body .nav-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  body .nav-bar .nav1 {
+    margin-right: 0px;
+  }
+  body .nav-bar .nav3 {
+    margin-left: 0px;
+  }
+  #banner .img-fluid {
+    height: 500px;
+  }
+  .nav-2 {
+    visibility: hidden;
+  }
+
+  /* chung chi giai thuong  */
+  .row .ggg {
+    padding: 50px;
+    border-top: 2px solid #ff8787;
+    border-left: none;
+  }
+  .container .zzz {
+    padding: 50px;
+    border-bottom: 2px solid #ff8787;
+    border-top: 2px solid #ff8787;
+  }
+  .yyy {
+    padding: 50px;
+  }
+  /* project
+
+   */
+  #project .row .deve {
+    display: block;
+
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* footer */
+  .hid {
+    display: none;
+  }
+  /* 9 project charter */
+  .name {
+    text-align: center;
+  }
+}
